@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcotermWood</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link defer rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header id="main_header" class="nav-down">
+        <div id="top-contacts-bar">
+            <div class="top-contacts-bar-item" id="language">
+                    <a class='lang-item' href="#">EN</a><a href="/" class='lang-item'>UA</a>
+            </div>
+            <div class=top-contacts-bar-item>
+                <div class="icon-block"><svg style="width:20px;height:20px" viewBox="0 0 24 24">
+                        <path fill="#ffffff" d="M4,4H20A2,2 0 0,1 22,6V18A2,2 0 0,1 20,20H4C2.89,20 2,19.1 2,18V6C2,4.89 2.89,4 4,4M12,11L20,6H4L12,11M4,18H20V8.37L12,13.36L4,8.37V18Z" />
+                    </svg>
+                </div>
+                <div class='contact_info'><p>Напишіть нам:<br><span><a href="mailto:info@ew.com.ua">info@ew.com.ua</a></span></p></div>
+            </div>
+            
+            <div class='top-contacts-bar-item'>
+                <div class="icon-block"><svg style="width:20px;height:20px" viewBox="0 0 24 24"><path fill="#ffffff" d="M6.62,10.79C8.06,13.62 10.38,15.94 13.21,17.38L15.41,15.18C15.69,14.9 16.08,14.82 16.43,14.93C17.55,15.3 18.75,15.5 20,15.5A1,1 0 0,1 21,16.5V20A1,1 0 0,1 20,21A17,17 0 0,1 3,4A1,1 0 0,1 4,3H7.5A1,1 0 0,1 8.5,4C8.5,5.25 8.7,6.45 9.07,7.57C9.18,7.92 9.1,8.31 8.82,8.59L6.62,10.79Z" />
+                    </svg>
+                </div>
+                <div class='contact_info'><p>Телефонуйте нам:<br><span><a href="tel:+38 0362 44 44 44">+38 0362 44 44 44</a></span></p></div>
+            </div>
+            
+            
+        </div>
+        <div class='clear'></div> 
+         
+        <div id="logo">
+            <a href="./" title="Link to the main page" >
+                <img src="./images/logo/6.jpg" alt="Logo EW">
+            </a>
+        </div>
+        <div id="menu_collapsed">
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+        </div>
+        <nav>
+            <ul class='active'>
+                
+                <li><a href="./" >Головна</a></li>
+                <li><a href="#catalog" >Каталог</a></li>
+                <li><a href="#production" >Про нас</a></li>
+                <li><a href="#contacts" >Контакти</a></li>
+                <li class="invisible" id='mobile-lang'><a class='lang-item' href='/'>UA</a><a class='lang-item'>EN</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="site-content">
+        <div id="slider">
+            <div id="img1" class="slide">
+                <div class="content">
+                    <h1>Екотермвуд - це виробник якісної та довговічної термо-деревини</h1>
+                </div>
+            </div>
+            
+            <div id="img2" class="slide">
+                <div class="content">
+                    <h1>Термо-деревина екологічно чиста і стійка до зовнішніх впливів</h1>
+                </div>
+            </div>
+            
+            <div id="img3" class="slide">
+                <div class="content">
+                    <h1>Екотермвуд - це першокласні матеріали  та високі виробничі технології</h1>
+                </div>
+            </div>
+        </div>
+    
+        <div class="wrapper">
+            <div id="catalog">
+                <div class="section-header">
+                    <h2><span class='motto-color-yellow'>Каталог продукції</span></h2>
+                </div>
+                <div>
+                    <ul id="catalog-filter" class="clearfix">
+                        <li class="activeFilter"><a href="#" data-filter="*">Всі</a></li>
+                        <li><a href="#" data-filter=".pine">Cосна</a></li>
+                        <li><a href="#" data-filter=".ash">Ясен</a></li>
+                        <li><a href="#" data-filter=".merbau">Merbau</a></li>
+                        
+        
+                    </ul><!-- catalog-filter end -->
+                </div>  
+                <div class="catalog-products-gallery">
+                    <div class="product pine">
+                        <div class="product-image">
+                            <img src="./images/catalog/IMG_5493.JPG" alt="Termowood Pine" />
+                        </div>
+                        <div class='sort'>Термо-сосна</div>
+                        <div class="product-header">
+                            <h3>Вагонка</h3>
+                            <div class="product-header-description">
+                                <p><span class="units">Товщина 20 мм<br>Ціна за м/кв</span><span class="price"> 500 грн</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product ash">
+                        <div class="product-image">
+                            <img src="./images/catalog/IMG_5492.JPG" alt="Termowood Ash" />
+                        </div>
+                        <div class='sort'>Термо-ясен</div>
+                        <div class="product-header">
+                        <h3>Термо-ясен (сорт екстра)</h3>
+                        <div class="product-header-description">
+                            <p><span class="units">Товщина 20 мм<br>Ціна за м/кв</span><span class="price"> 1000 грн</span></p>
+                            </div>
+                    </div>
+                    </div>
+                    <div class="product pine">
+                        <div class="product-image">
+                            <img src="./images/catalog/IMG_5489.JPG" alt="Termowood Pine" />
+                        </div>
+                        <div class='sort'>Термо-сосна</div>
+                        <div class="product-header">
+                        <h3>Скошений планкен</h3>
+                        <div class="product-header-description">
+                            <p><span class="units">Товщина 25 мм<br>Ціна за м/кв</span><span class="price"> 650 грн</span></p>
+                            </div>
+                    </div>
+                    </div>
+                    <div class="product ash">
+                        <div class="product-image">
+                            <img src="./images/catalog/IMG_5489.JPG" alt="Termowood Ash" />
+                        </div>
+                        <div class='sort'>Термо-ясен</div>
+                        <div class="product-header">
+                        <h3>Скошений планкен</h3>
+                        <div class="product-header-description">
+                                <p><span class="units">Товщина 20 мм<br>Ціна за м/кв</span><span class="price"> 1350 грн</span></p>
+                            </div>    
+                    </div>
+                    </div>
+                    <div class="product pine">
+                        <div class="product-image">
+                            <img src="./images/catalog/IMG_5492.JPG" alt="Termowood Pine" />
+                        </div>
+                        <div class='sort'>Термо-сосна</div>
+                        <div class="product-header">
+                        <h3>Фальш-брус</h3>
+                        <div class="product-header-description">
+                                <p><span class="units">Товщина 25 мм<br>Ціна за м/кв</span><span class="price"> 650 грн</span></p>
+                            </div>
+                    </div>
+                    </div>
+                    <div class="product ash">
+                        <div class="product-image">
+                            <img src="./images/catalog/IMG_5492.JPG" alt="Termowood Ash" />
+                        </div>
+                        <div class='sort'>Термо-ясен</div>
+                        <div class="product-header">
+                        <h3>Фальш-брус</h3>
+                        <div class="product-header-description">
+                                <p><span class="units">Товщина 25 мм<br>Ціна за м/кв</span><span class="price"> 1350 грн</span></p>
+                            </div>
+                    </div>
+                    </div>
+                    <div class="product pine">
+                        <div class="product-image">
+                            <img src="./images/catalog/IMG_5491.JPG" alt="Termowood Pine" />
+                        </div>
+                        <div class='sort'>Термо-сосна</div>
+                        <div class="product-header">
+                        <h3>Дошка для підлоги</h3>
+                        <div class="product-header-description">
+                                <p><span class="units">Товщина 25 мм<br>Ціна за м/кв</span><span class="price"> 650 грн</span></p>
+                            </div>
+                    </div>
+                    </div>
+                    <div class="product pine">
+                        <div class="product-image">
+                            <img src="./images/catalog/IMG_5495.JPG" alt="Termowood Pine" />
+                        </div>
+                        <div class='sort'>Термо-сосна</div>
+                        <div class="product-header">
+                        <h3>Дошка для підлоги</h3>
+                        <div class="product-header-description">
+                                    <p><span class="units">Товщина 35 мм<br>Ціна за м/кв</span><span class="price"> 850 грн</span></p>
+                            </div>
+                    </div>
+                    </div>
+                    <div class="product ash">
+                        <div class="product-image">
+                            <img src="./images/catalog/IMG_5497.JPG" alt="Termowood Ash" />
+                        </div>
+                        <div class='sort'>Термо-ясен екстра</div>
+                        <div class="product-header">
+                        <h3>Дошка для підлоги</h3>
+                        <div class="product-header-description">
+                                <p><span class="units">Товщина 20 мм<br>Ціна за м/кв</span><span class="price"> 1350 грн</span></p>
+                            </div>
+                    </div>
+                    </div>
+                    <div class="product pine">
+                        <div class="product-image">
+                            <img src="./images/catalog/IMG_5498.JPG" alt="Termowood Pine" />
+                        </div>
+                        <div class='sort'>Термо-сосна</div>
+                        <div class="product-header">
+                        <h3>Терасна дошка вельвет з кліпсою гладка </h3>
+                        <div class="product-header-description">
+                                <p><span class="units">Товщина 20 мм<br>Ціна за м/кв</span><span class="price"> 650 грн</span></p>
+                            </div>
+                    </div>
+                    </div>
+                    <div class="product ash">
+                        <div class="product-image">
+                            <img src="./images/catalog/IMG_5499.JPG" alt="Termowood Ash" />
+                        </div>
+                        <div class='sort'>Термо-ясен екстра</div>
+                        <div class="product-header">
+                        <h3>Терасна дошка вельвет з кліпсою гладка </h3>
+                        <div class="product-header-description">
+                                <p><span class="units">Товщина 20 мм<br>Ціна за м/кв</span><span class="price"> 1350 грн</span></p>
+                            </div>
+                    </div>
+                    </div>
+                    <div class="product pine">
+                        <div class="product-image">
+                            <img src="./images/catalog/IMG_5500.JPG" alt="Termowood Pine" />
+                        </div>
+                        <div class='sort'>Термо-сосна</div>
+                        <div class="product-header">
+                        <h3>Паркетна дошка</h3>
+                        <div class="product-header-description">
+                                <p><span class="units">Товщина 20 мм<br>Ціна за м/кв</span><span class="price"> 650 грн</span></p>
+                            </div>
+                    </div>
+                    </div>
+                    <div class="product ash">
+                        <div class="product-image">
+                            <img src="./images/catalog/IMG_5500.JPG" alt="Termowood Ash" />
+                        </div>
+                        <div class='sort'>Термо-ясен екстра</div>
+                        <div class="product-header">
+                        <h3>Паркетна дошка</h3>
+                        <div class="product-header-description">
+                                <p><span class="units">Товщина 20 мм<br>Ціна за м/кв</span><span class="price"> 1350 грн</span></p>
+                            </div>
+                    </div>
+                    </div>
+                    <div class="product pine">
+                        <div class="product-image">
+                            <img src="./images/catalog/IMG_5502.JPG" alt="Termowood Pine" />
+                        </div>
+                        <div class='sort'>Термо-сосна</div>
+                        <div class="product-header">
+                        <h3>Бруски</h3>
+                        <div class="product-header-description">
+                                <p><span class="units">40 x 60 мм<br>Ціна за м/погонний</span><span class="price"> 60 грн</span></p>
+                            </div>
+                    </div>
+                    </div>
+                    <div class="product pine">
+                        <div class="product-image">
+                            <img src="./images/catalog/IMG_5503.JPG" alt="Termowood Pine" />
+                        </div>
+                        <div class='sort'>Термо-сосна</div>
+                        <div class="product-header">
+                        <h3>Лаги</h3>
+                        <div class="product-header-description">
+                                <p><span class="units">150 x 50 мм<br>Ціна за м/погонний</span><span class="price"> 150 грн</span></p>
+                            </div>
+                    </div>
+                    </div>
+                    <div class="product pine">
+                        <div class="product-image">
+                            <img src="./images/catalog/IMG_5504.JPG" alt="Termowood Pine" />
+                        </div>
+                        <div class='sort'>Термо-сосна</div>
+                        <div class="product-header">
+                        <h3>Палубна дошка</h3>
+                        <div class="product-header-description">
+                                <p><span class="units">Товщина 20 мм<br>Ціна за м/кв</span><span class="price"> 650 грн</span></p>
+                            </div>
+                    </div>
+                    </div>
+                    <div class="product ash">
+                        <div class="product-image">
+                            <img src="./images/catalog/IMG_5505.JPG" alt="Termowood Ash" />
+                        </div>
+                        <div class='sort'>Термо-ясен екстра</div>
+                        <div class="product-header">
+                        <h3>Палубна дошка</h3>
+                        <div class="product-header-description">
+                                <p><span class="units">Товщина 20 мм<br>Ціна за м/кв</span><span class="price"> 1350 грн</span></p>
+                            </div>
+                    </div>
+                    </div>
+                    <div class="product merbau">
+                        <div class="product-image">
+                            <img src="./images/catalog/IMG_5506.JPG" alt="Termowood Merbau" />
+                        </div>
+                        <div class='sort'>Merbau</div>
+                        <div class="product-header">
+                        <h3>Merbau 7 </h3>
+                        <div class="product-header-description">
+                                <p><span class="units">140 x 20 мм<br>Ціна за м/кв</span><span class="price"> 75 у.о.</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product merbau">
+                        <div class="product-image">
+                            <img src="./images/catalog/IMG_5507.JPG" alt="Termowood Merbau" />
+                        </div>
+                        <div class='sort'>Merbau</div>
+                        <div class="product-header">
+                        <h3>Merbau 7 </h3>
+                        <div class="product-header-description">
+                                <p><span class="units">140 x 25 мм<br>Ціна за м/кв</span><span class="price">90 у.о.</span></p>
+                            </div>
+                    </div>
+                    </div>
+                </div>
+            </div><!-- PRODUCTS CATALOG  -->
+        </div><!--wrapper-->
+        <div class="section-header">
+            <h2><span class='motto-color-yellow'>Галерея проектів</span></h2>
+        </div>
+        <div id="photogallery">
+            <ul id="gallery" class="gallery">
+                    <li><a href="./images/projects/1s.jpg" data-lightbox="EcotermWood"><img src="./images/projects/1s.jpg" alt="Termowood" /></a></li>
+                    <li><a href="./images/projects/2s.jpg" data-lightbox="EcotermWood"><img src="./images/projects/2s.jpg" alt="Termowood" /></a></li>
+                    <li><a href="./images/projects/3s.jpg" data-lightbox="EcotermWood"><img src="./images/projects/3s.jpg" alt="Termowood" /></a></li>
+                    <li><a href="./images/projects/4s.jpg" data-lightbox="EcotermWood"><img src="./images/projects/4s.jpg" alt="Termowood" /></a></li>
+                    <li><a href="./images/projects/5s.jpg" data-lightbox="EcotermWood"><img src="./images/projects/5s.jpg" alt="Termowood" /></a></li>
+                    <li><a href="./images/projects/6s.jpg" data-lightbox="EcotermWood"><img src="./images/projects/6s.jpg" alt="Termowood" /></a></li>
+                    <li><a href="./images/projects/7s.jpg" data-lightbox="EcotermWood"><img src="./images/projects/7s.jpg" alt="Termowood" /></a></li>
+                    <li><a href="./images/projects/8s.jpg" data-lightbox="EcotermWood"><img src="./images/projects/8s.jpg" alt="Termowood" /></a></li>
+                    <li><a href="./images/projects/9s.jpg" data-lightbox="EcotermWood"><img src="./images/projects/9s.jpg" alt="Termowood" /></a></li>
+                    <li><a href="./images/projects/10s.jpg" data-lightbox="EcotermWood"><img src="./images/projects/10s.jpg" alt="Termowood" /></a></li>
+                    <li><a href="./images/projects/11s.jpg" data-lightbox="EcotermWood"><img src="./images/projects/11s.jpg" alt="Termowood" /></a></li>
+                    <li><a href="./images/projects/12s.jpg" data-lightbox="EcotermWood"><img src="./images/projects/12s.jpg" alt="Termowood" /></a></li>
+                    <li><a href="./images/projects/13s.jpg" data-lightbox="EcotermWood"><img src="./images/projects/13s.jpg" alt="Termowood" /></a></li>
+                    <li><a href="./images/projects/14s.jpg" data-lightbox="EcotermWood"><img src="./images/projects/14s.jpg" alt="Termowood" /></a></li>
+                    <li><a href="./images/projects/15s.jpg" data-lightbox="EcotermWood"><img src="./images/projects/15s.jpg" alt="Termowood" /></a></li>
+                    <li><a href="./images/projects/16s.jpg" data-lightbox="EcotermWood"><img src="./images/projects/16s.jpg" alt="Termowood" /></a></li>
+                    <li><a href="./images/projects/17s.jpg" data-lightbox="EcotermWood"><img src="./images/projects/17s.jpg" alt="Termowood" /></a></li>
+                    <li><a href="./images/projects/18s.jpg" data-lightbox="EcotermWood"><img src="./images/projects/18s.jpg" alt="Termowood" /></a></li>
+                    <li><a href="./images/projects/19s.jpg" data-lightbox="EcotermWood"><img src="./images/projects/19s.jpg" alt="Termowood" /></a></li>
+                    <li><a href="./images/projects/20s.jpg" data-lightbox="EcotermWood"><img src="./images/projects/20s.jpg" alt="Termowood" /></a></li>
+                    <li><a href="./images/projects/21s.jpg" data-lightbox="EcotermWood"><img src="./images/projects/21s.jpg" alt="Termowood" /></a></li>
+                    <li><a href="./images/projects/22s.jpg" data-lightbox="EcotermWood"><img src="./images/projects/22s.jpg" alt="Termowood" /></a></li>
+                    <li><a href="./images/projects/23s.jpg" data-lightbox="EcotermWood"><img src="./images/projects/23s.jpg" alt="Termowood" /></a></li>
+                    <li><a href="./images/projects/24s.jpg" data-lightbox="EcotermWood"><img src="./images/projects/24s.jpg" alt="Termowood" /></a></li>
+                    <li><a href="./images/projects/25s.jpg" data-lightbox="EcotermWood"><img src="./images/projects/25s.jpg" alt="Termowood" /></a></li>
+                    <li><a href="./images/projects/26s.jpg" data-lightbox="EcotermWood"><img src="./images/projects/26s.jpg" alt="Termowood" /></a></li>
+                    <li><a href="./images/projects/27s.jpg" data-lightbox="EcotermWood"><img src="./images/projects/27s.jpg" alt="Termowood" /></a></li>
+                    <li><a href="./images/projects/28s.jpg" data-lightbox="EcotermWood"><img src="./images/projects/28s.jpg" alt="Termowood" /></a></li>
+
+
+            </ul>
+        </div>
+        <div class="wrapper">
+            <div class="section-header">
+                <h2><span class='motto-color-yellow'>Наше виробництво</h2>
+            </div>
+            <div id="production">
+                <div class="production-description">
+                    <p>«ЕкотермВуд» пропонує широкий асортимент якісної продукції, з якого ви зможете вибрати саме те, що підходить вам найкраще. Першокласні матеріали, високі виробничі технології, кваліфіковані 
+                        співробітники - все це дозволяє нам не тільки відповідати очікуванням клієнтів, але і перевершувати їх.</p>
+                </div>
+                <div class="production-video">
+                    <video autoplay muted loop id="myVideo">
+                        <source src="./video/33.mp4" type="video/mp4">
+                        Your browser does not support HTML5 video.
+                    </video>
+                </div>
+            </div>  
+        </div>
+    </div>    
+        <footer id='contacts'>
+            <div class='footer-title'>
+                <h2>НАШІ КОНТАКТИ</h2>
+            </div>
+            <div class='contacts-map-block'>
+                <div class="contacts">
+                    <div class="contacts-item">
+                        <div class="footer-icon">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        </div>
+                        <h3>Адреса:</h3>
+                        <p class='contact-address'>вул. Гагаріна, 39<br>
+                        м. Рівне<br>
+                        ТОВ "Екотермвуд"
+                        </p>
+                    </div>
+                    <div class="contacts-item">
+                        <div class="footer-icon">
+                            <i class='fa fa-phone'></i>
+                        </div>
+                        <h3>Відділ продажу:</h3>
+                        <p class='contact-name'>Максим Крутий</p>
+                        <p><a href='tel:+380674444444' title='Link to phone call'>+38 067 444 44 44</a></p>
+                        <p>info@ew.com.ua</p>
+                    </div>
+                    <div class="contacts-item">    
+                        <div class="footer-icon">
+                            <i class="fa fa-wifi" aria-hidden="true"></i>
+                        </div>
+                        <h3>Інтернет-зв'язок</h3>
+    
+                        <div class='internet-communication'>
+                            <div class='internet-communication__item'>
+                                <svg  class='social-icon'   viewBox="0 0 650 650"><defs><style>.cls-1{fill:#ffffff;}.cls-2{fill:none;stroke:#ffffff;stroke-linecap:round;stroke-linejoin:round;stroke-width:16.86px;}</style></defs><title>Artboard 6</title><path class="cls-1" d="M560.65,65C544.09,49.72,477.17,1.14,328.11.48c0,0-175.78-10.6-261.47,68C18.94,116.19,2.16,186,.39,272.55S-3.67,521.3,152.68,565.28l.15,0-.1,67.11s-1,27.17,16.89,32.71c21.64,6.72,34.34-13.93,55-36.19,11.34-12.22,27-30.17,38.8-43.89,106.93,9,189.17-11.57,198.51-14.61,21.59-7,143.76-22.66,163.63-184.84C646.07,218.4,615.64,112.66,560.65,65Zm18.12,308.58C562,509,462.91,517.51,444.64,523.37c-7.77,2.5-80,20.47-170.83,14.54,0,0-67.68,81.65-88.82,102.88-3.3,3.32-7.18,4.66-9.77,4-3.64-.89-4.64-5.2-4.6-11.5.06-9,.58-111.52.58-111.52s-.08,0,0,0C38.94,485.05,46.65,347,48.15,274.71S63.23,143.2,103.57,103.37c72.48-65.65,221.79-55.84,221.79-55.84,126.09.55,186.51,38.52,200.52,51.24C572.4,138.6,596.1,233.91,578.77,373.54Z"/><path class="cls-2" d="M389.47,268.77q-2.46-49.59-50.38-52.09"/><path class="cls-2" d="M432.72,283.27q1-46.2-27.37-77.2c-19-20.74-45.3-32.16-79.05-34.63"/><path class="cls-2" d="M477,300.59q-.61-80.17-47.91-126.28t-117.65-46.6"/><path class="cls-1" d="M340.76,381.68s11.85,1,18.23-6.86l12.44-15.65c6-7.76,20.48-12.71,34.66-4.81A366.67,366.67,0,0,1,437,374.1c9.41,6.92,28.68,23,28.74,23,9.18,7.75,11.3,19.13,5.05,31.13,0,.07-.05.19-.05.25a129.81,129.81,0,0,1-25.89,31.88c-.12.06-.12.12-.23.18q-13.38,11.18-26.29,12.71a17.39,17.39,0,0,1-3.84.24,35,35,0,0,1-11.18-1.72l-.28-.41c-13.26-3.74-35.4-13.1-72.27-33.44a430.39,430.39,0,0,1-60.72-40.11,318.31,318.31,0,0,1-27.31-24.22l-.92-.92-.92-.92h0l-.92-.92c-.31-.3-.61-.61-.92-.92a318.31,318.31,0,0,1-24.22-27.31,430.83,430.83,0,0,1-40.11-60.71c-20.34-36.88-29.7-59-33.44-72.28l-.41-.28a35,35,0,0,1-1.71-11.18,16.87,16.87,0,0,1,.23-3.84Q141,181.42,152.12,168c.06-.11.12-.11.18-.23a129.53,129.53,0,0,1,31.88-25.88c.06,0,.18-.06.25-.06,12-6.25,23.38-4.13,31.12,5,.06.06,16.11,19.33,23,28.74a366.67,366.67,0,0,1,19.74,30.94c7.9,14.17,2.95,28.68-4.81,34.66l-15.65,12.44c-7.9,6.38-6.86,18.23-6.86,18.23S254.15,359.57,340.76,381.68Z"/></svg>
+                                <p>Viber</p>
+                            </div>
+                            <div class='internet-communication__item'>
+                                <svg  class='social-icon' viewBox="0 0 512 512">
+                                <path style="fill:#fff;" d="M378.853,294.202c-0.997-0.479-38.324-18.859-44.956-21.246c-2.708-0.972-5.609-1.922-8.694-1.922
+                                c-5.04,0-9.274,2.512-12.572,7.446c-3.729,5.542-15.016,18.736-18.503,22.678c-0.456,0.52-1.077,1.142-1.45,1.142
+                                c-0.334,0-6.111-2.379-7.86-3.138c-40.041-17.393-70.433-59.219-74.601-66.272c-0.595-1.014-0.62-1.474-0.625-1.474
+                                c0.146-0.537,1.493-1.887,2.188-2.583c2.033-2.011,4.236-4.663,6.367-7.228c1.009-1.215,2.02-2.432,3.012-3.579
+                                c3.092-3.597,4.468-6.39,6.064-9.625l0.836-1.681c3.897-7.742,0.569-14.274-0.507-16.384c-0.883-1.765-16.643-39.803-18.319-43.799
+                                c-4.03-9.643-9.354-14.133-16.753-14.133c-0.687,0,0,0-2.879,0.121c-3.506,0.148-22.598,2.661-31.039,7.983
+                                c-8.952,5.644-24.096,23.633-24.096,55.271c0,28.474,18.07,55.359,25.828,65.584c0.193,0.258,0.547,0.781,1.061,1.533
+                                c29.711,43.39,66.75,75.547,104.297,90.546c36.148,14.439,53.265,16.108,62.996,16.108c0.002,0,0.002,0,0.002,0
+                                c4.089,0,7.362-0.321,10.25-0.605l1.832-0.175c12.487-1.107,39.929-15.327,46.171-32.673c4.917-13.663,6.214-28.591,2.942-34.008
+                                C387.604,298.403,383.742,296.549,378.853,294.202z"></path>
+                                <path style="fill:#fff;" d="M260.545,0C121.879,0,9.066,111.965,9.066,249.588c0,44.512,11.912,88.084,34.479,126.218
+                                L0.352,503.216c-0.805,2.375-0.206,5.002,1.551,6.791C3.172,511.302,4.892,512,6.649,512c0.673,0,1.351-0.101,2.013-0.313
+                                l132.854-42.217c36.355,19.424,77.445,29.678,119.03,29.678C399.199,499.15,512,387.197,512,249.588
+                                C512,111.965,399.199,0,260.545,0z M260.545,447.159c-39.13,0-77.029-11.299-109.608-32.677c-1.095-0.72-2.367-1.089-3.647-1.089
+                                c-0.677,0-1.355,0.103-2.015,0.313l-66.552,21.155l21.484-63.383c0.695-2.051,0.347-4.314-0.933-6.063
+                                c-24.809-33.898-37.923-73.949-37.923-115.827c0-108.955,89.357-197.597,199.191-197.597c109.821,0,199.168,88.642,199.168,197.597
+                                C459.713,358.53,370.367,447.159,260.545,447.159z"></path>
+            
+                                </svg>
+                                <p>Whatsapp</p>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+    
+                </div>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2530.8636301055094!2d26.265606915904105!3d50.629650082317085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472f14a8c4aa2b9f%3A0x7f3891fc8732d1de!2sGagarina%20St%2C%2039%2C%20Rivne%2C%20Rivnens&#39;ka%20oblast%2C%2033017!5e0!3m2!1sen!2sua!4v1597657491292!5m2!1sen!2sua" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+            
+            <div class="copyright">
+                EcotermWood 2020 &copy;
+            </div>
+        </footer>
+    <!--<h2>Animated Elements</h2>
+    <a class="animation-overlay__morelink" style="animation-delay: 300ms;" href="#">+</a>-->
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+    <script type="text/javascript" src="./js/lightbox.js"></script>
+    <script>
+        /*window.sr = ScrollReveal();
+        sr.reveal(document.querySelectorAll('.right-hero'), { duration: 1500, origin: 'top',distance: '40px' });*/
+        /*sr.reveal(document.querySelectorAll('.left-hero'), { duration: 1000, origin: 'bottom',distance: '40px' });*/
+        
+</script>
+</body>
+</html>
